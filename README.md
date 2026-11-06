@@ -1,5 +1,7 @@
 # termiaShell
 
+![Captura da tela inicial do termiaShell](screenshots/termiaShell.png)
+
 Terminal desktop em Go com abas, WSL, SSH/SFTP e navegador gráfico de arquivos. Interface local, sem instalador, Node/npm, CDN ou telemetria. A estrutura compartilhada também inclui PTY e arquivos POSIX para Linux.
 
 ## Windows
