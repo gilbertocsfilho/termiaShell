@@ -1,0 +1,8 @@
+.local/
+data/
+dist/
+*.exe
+startup-error.txt
+*.log
+.DS_Store
+Thumbs.db

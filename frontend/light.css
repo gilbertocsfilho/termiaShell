@@ -1,0 +1,59 @@
+/* A paleta clara também cobre diálogos, estados, arquivos e transferências. */
+:root { --terminal-bg: #0b101a; }
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --line: #c9d3e1;
+  --muted: #53647b;
+  --text: #243247;
+  --accent: #245bb0;
+  --terminal-bg: #f7f9fd;
+}
+#terminal-panel { background: var(--terminal-bg); }
+[data-theme="light"] button { background: #eaf0f8; color: #253a56; }
+[data-theme="light"] button:hover { background: #dce7f6; }
+[data-theme="light"] input, [data-theme="light"] select { background: #ffffff; border-color: #b7c5d8; color: #243247; }
+[data-theme="light"] input:focus, [data-theme="light"] select:focus { outline-color: #245bb0; }
+[data-theme="light"] button.primary { background: #245bb0; border-color: #245bb0; color: #ffffff; }
+[data-theme="light"] button.primary:hover { background: #1b4b94; }
+[data-theme="light"] .icon, [data-theme="light"] .header-actions button,
+[data-theme="light"] footer button, [data-theme="light"] .file-tools button { background: transparent; }
+[data-theme="light"] #sidebar, [data-theme="light"] #file-panel { background: #edf2f9; }
+[data-theme="light"] .brand-icon { color: #245bb0; background: #dce8f9; border-color: #b0c6e5; }
+[data-theme="light"] .brand small, [data-theme="light"] .eyebrow,
+[data-theme="light"] .group-title, [data-theme="light"] .empty-group,
+[data-theme="light"] .welcome-note, [data-theme="light"] .tab-home,
+[data-theme="light"] #file-caption { color: #53647b; }
+[data-theme="light"] .search { background: #ffffff; }
+[data-theme="light"] .profile:hover { background: #dde7f5; }
+[data-theme="light"] #tabbar { background: #eaf0f8; border-top-color: #d3dce9; }
+[data-theme="light"] .tab { color: #53647b; }
+[data-theme="light"] .tab.active { background: #ffffff; color: #1e4e95; border-top-color: #245bb0; }
+[data-theme="light"] .tab button { color: #53647b; background: transparent; }
+[data-theme="light"] #welcome { background: radial-gradient(ellipse at 70% 15%, #dce8fa88, transparent 60%); }
+[data-theme="light"] .welcome-symbol { background: linear-gradient(135deg, #e5eefa, #ffffff); color: #245bb0; border-color: #b9cde7; }
+[data-theme="light"] #welcome h2 span { color: #53647b; }
+[data-theme="light"] .connect-card { background: #ffffff; border-color: #c2d0e2; }
+[data-theme="light"] .connect-card:hover { background: #edf4ff; }
+[data-theme="light"] .blue { background: #dce8fb; color: #245bb0; }
+[data-theme="light"] .green { background: #d9eee5; color: #24683e; }
+[data-theme="light"] .connect-card small, [data-theme="light"] .card-arrow,
+[data-theme="light"] footer, [data-theme="light"] .panel-title,
+[data-theme="light"] .panel-title span, [data-theme="light"] .file-row .size { color: #53647b; }
+[data-theme="light"] .file-row { border-bottom-color: #dbe3ee; }
+[data-theme="light"] .file-row:hover, [data-theme="light"] .file-row.selected { background: #dce8f9; }
+[data-theme="light"] .file-row .file-icon { color: #245bb0; }
+[data-theme="light"] .file-error { color: #7a4a1e; }
+[data-theme="light"] dialog { background: #ffffff; border-color: #b7c7dc; box-shadow: 0 24px 100px #22334f33; }
+[data-theme="light"] dialog::backdrop { background: #263c5b66; }
+[data-theme="light"] .kind-picker button { background: #edf2f9; }
+[data-theme="light"] .kind-picker button.active { background: #dce8fa; border-color: #245bb0; color: #19477f; }
+[data-theme="light"] label, [data-theme="light"] .dialog-note,
+[data-theme="light"] #action-message { color: #53647b; }
+[data-theme="light"] .error, [data-theme="light"] .transfer.failed { color: #ad2935; }
+[data-theme="light"] #toast { background: #ffffff; border-color: #9bb7dd; box-shadow: 0 8px 35px #22334f33; }
+[data-theme="light"] #transfers { background: #f0f4fa; }
+[data-theme="light"] .transfer { border-top-color: #d4dfea; }
+[data-theme="light"] .transfer.done { color: #24683e; }
+[data-theme="light"] #file-context-menu{background:#fff;border-color:#c9d4e4;box-shadow:0 10px 30px #29375035}[data-theme="light"] .context-action{color:#26364d}[data-theme="light"] .context-action:hover,[data-theme="light"] .context-action:focus{background:#e9eff8}[data-theme="light"] .context-divider{background:#d8e0eb}[data-theme="light"] #sidebar{background:#f3f6fb;border-right:1px solid #d7deea;color:#26344a;padding:12px 10px 0}[data-theme="light"] .brand{color:#20334d}[data-theme="light"] .brand-icon{background:#e5effd;border-color:#cadcf8;color:#2563ae}[data-theme="light"] .connection-heading{background:transparent;border:0;color:#26344a}[data-theme="light"] .connection-heading .side-tool{color:#60728a}[data-theme="light"] .connection-heading .side-tool:hover{background:#e5ebf4;color:#275fa5}[data-theme="light"] #sidebar .search{background:#fff;border:1px solid #d5ddea;color:#25364f}[data-theme="light"] .nav-section-title{color:#63748c}[data-theme="light"] .nav-label{color:#26364e}[data-theme="light"] .nav-local .tree-connection-icon,[data-theme="light"] .nav-profile .tree-connection-icon{color:#336fb6}[data-theme="light"] .nav-local:hover,[data-theme="light"] .nav-profile:hover{background:#e9eff8}[data-theme="light"] .nav-local.selected,[data-theme="light"] .nav-profile.selected{background:#dce9fb;box-shadow:inset 3px 0 #2c6fba}[data-theme="light"] .nav-local.selected .nav-label,[data-theme="light"] .nav-profile.selected .nav-label{color:#1d4f88}[data-theme="light"] .nav-delete{color:#697b92}[data-theme="light"] .nav-delete:hover{background:#d9e2f0;color:#243b5b}[data-theme="light"] .side-bottom{border-color:#d7deea}[data-theme="light"] .side-bottom button{color:#62748d}
